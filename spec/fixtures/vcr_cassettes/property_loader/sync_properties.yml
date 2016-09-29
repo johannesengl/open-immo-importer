@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Kaiser-Friedrich-Stra%C3%9Fe%2077,%2010585,%20Berlin,%20Deutschland&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 29 Sep 2016 08:49:29 GMT
+      Expires:
+      - Fri, 30 Sep 2016 08:49:29 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '536'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ewogICAicmVzdWx0cyIgOiBbCiAgICAgIHsKICAgICAgICAgImFkZHJlc3Nf
+        Y29tcG9uZW50cyIgOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAg
+        ImxvbmdfbmFtZSIgOiAiNzciLAogICAgICAgICAgICAgICAic2hvcnRfbmFt
+        ZSIgOiAiNzciLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0
+        X251bWJlciIgXQogICAgICAgICAgICB9LAogICAgICAgICAgICB7CiAgICAg
+        ICAgICAgICAgICJsb25nX25hbWUiIDogIkthaXNlci1GcmllZHJpY2gtU3Ry
+        YcOfZSIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJLYWlzZXIt
+        RnJpZWRyaWNoLVN0cmHDn2UiLAogICAgICAgICAgICAgICAidHlwZXMiIDog
+        WyAicm91dGUiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAg
+        ICAgICAgICAgICAibG9uZ19uYW1lIiA6ICJDaGFybG90dGVuYnVyZyIsCiAg
+        ICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJDaGFybG90dGVuYnVyZyIs
+        CiAgICAgICAgICAgICAgICJ0eXBlcyIgOiBbICJwb2xpdGljYWwiLCAic3Vi
+        bG9jYWxpdHkiLCAic3VibG9jYWxpdHlfbGV2ZWxfMiIgXQogICAgICAgICAg
+        ICB9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUi
+        IDogIkJlemlyayBDaGFybG90dGVuYnVyZy1XaWxtZXJzZG9yZiIsCiAgICAg
+        ICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJCZXppcmsgQ2hhcmxvdHRlbmJ1
+        cmctV2lsbWVyc2RvcmYiLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAi
+        cG9saXRpY2FsIiwgInN1YmxvY2FsaXR5IiwgInN1YmxvY2FsaXR5X2xldmVs
+        XzEiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAgICAg
+        ICAgICAibG9uZ19uYW1lIiA6ICJCZXJsaW4iLAogICAgICAgICAgICAgICAi
+        c2hvcnRfbmFtZSIgOiAiQmVybGluIiwKICAgICAgICAgICAgICAgInR5cGVz
+        IiA6IFsgImxvY2FsaXR5IiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9
+        LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDog
+        IkJlcmxpbiIsCiAgICAgICAgICAgICAgICJzaG9ydF9uYW1lIiA6ICJCZXJs
+        aW4iLAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiYWRtaW5pc3RyYXRp
+        dmVfYXJlYV9sZXZlbF8xIiwgInBvbGl0aWNhbCIgXQogICAgICAgICAgICB9
+        LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICJsb25nX25hbWUiIDog
+        Ikdlcm1hbnkiLAogICAgICAgICAgICAgICAic2hvcnRfbmFtZSIgOiAiREUi
+        LAogICAgICAgICAgICAgICAidHlwZXMiIDogWyAiY291bnRyeSIsICJwb2xp
+        dGljYWwiIF0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgewogICAgICAg
+        ICAgICAgICAibG9uZ19uYW1lIiA6ICIxMDU4NSIsCiAgICAgICAgICAgICAg
+        ICJzaG9ydF9uYW1lIiA6ICIxMDU4NSIsCiAgICAgICAgICAgICAgICJ0eXBl
+        cyIgOiBbICJwb3N0YWxfY29kZSIgXQogICAgICAgICAgICB9CiAgICAgICAg
+        IF0sCiAgICAgICAgICJmb3JtYXR0ZWRfYWRkcmVzcyIgOiAiS2Fpc2VyLUZy
+        aWVkcmljaC1TdHJhw59lIDc3LCAxMDU4NSBCZXJsaW4sIEdlcm1hbnkiLAog
+        ICAgICAgICAiZ2VvbWV0cnkiIDogewogICAgICAgICAgICAibG9jYXRpb24i
+        IDogewogICAgICAgICAgICAgICAibGF0IiA6IDUyLjUxMTg5LAogICAgICAg
+        ICAgICAgICAibG5nIiA6IDEzLjMwMjMxCiAgICAgICAgICAgIH0sCiAgICAg
+        ICAgICAgICJsb2NhdGlvbl90eXBlIiA6ICJST09GVE9QIiwKICAgICAgICAg
+        ICAgInZpZXdwb3J0IiA6IHsKICAgICAgICAgICAgICAgIm5vcnRoZWFzdCIg
+        OiB7CiAgICAgICAgICAgICAgICAgICJsYXQiIDogNTIuNTEzMjM4OTgwMjkx
+        NSwKICAgICAgICAgICAgICAgICAgImxuZyIgOiAxMy4zMDM2NTg5ODAyOTE1
+        CiAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICJzb3V0aHdlc3Qi
+        IDogewogICAgICAgICAgICAgICAgICAibGF0IiA6IDUyLjUxMDU0MTAxOTcw
+        ODUsCiAgICAgICAgICAgICAgICAgICJsbmciIDogMTMuMzAwOTYxMDE5NzA4
+        NQogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgfSwK
+        ICAgICAgICAgInBsYWNlX2lkIiA6ICJDaElKLXdoLXJpQlJxRWNSOEZGT1dO
+        M2dRNTgiLAogICAgICAgICAidHlwZXMiIDogWyAic3RyZWV0X2FkZHJlc3Mi
+        IF0KICAgICAgfQogICBdLAogICAic3RhdHVzIiA6ICJPSyIKfQo=
+    http_version: 
+  recorded_at: Thu, 29 Sep 2016 08:49:29 GMT
+recorded_with: VCR 3.0.1

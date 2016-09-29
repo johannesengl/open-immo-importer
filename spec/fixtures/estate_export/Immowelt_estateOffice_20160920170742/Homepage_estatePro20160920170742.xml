@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<openimmo
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <uebertragung art="OFFLINE" umfang="TEIL" version="1.2.6" sendersoftware="estateOffice" senderversion="6.0.0.4" techn_email="info@xxx.de" timestamp="2016-09-20T17:07:42" />
+    <anbieter>
+        <anbieternr>XXX</anbieternr>
+        <firma>XXX</firma>
+        <openimmo_anid>XXX</openimmo_anid>
+        <immobilie>
+            <objektkategorie>
+                <nutzungsart WOHNEN="true" GEWERBE="false" />
+                <vermarktungsart KAUF="true" MIETE_PACHT="false" />
+                <objektart>
+                    <wohnung wohnungtyp="ETAGE" />
+                </objektart>
+            </objektkategorie>
+            <geo>
+                <plz>10585</plz>
+                <ort>Berlin</ort>
+                <strasse>Kaiser-Friedrich-Straße</strasse>
+                <hausnummer>348</hausnummer>
+                <land iso_land="DEU" />
+                <etage>1</etage>
+                <lage_im_bau />
+                <lage_gebiet gebiete="WOHN" />
+                <regionaler_zusatz>Charlottenburg</regionaler_zusatz>
+            </geo>
+            <kontaktperson>
+                <email_zentrale>kontakt@xxx.de</email_zentrale>
+                <email_direkt>xxx@xxx.de</email_direkt>
+                <tel_zentrale>+49 30 000000</tel_zentrale>
+                <tel_durchw>+49 30 0000000</tel_durchw>
+                <tel_fax>+49 30 0000000</tel_fax>
+                <tel_handy>+49 000000</tel_handy>
+                <name>Max</name>
+                <vorname>Musermann</vorname>
+                <anrede>Herr</anrede>
+                <firma>Muserfirma</firma>
+                <strasse>Straße</strasse>
+                <hausnummer>45a</hausnummer>
+                <plz>10551</plz>
+                <ort>Berlin</ort>
+                <adressfreigabe>true</adressfreigabe>
+            </kontaktperson>
+            <preise>
+                <kaufpreis>277000.00</kaufpreis>
+                <zzg_mehrwertsteuer>false</zzg_mehrwertsteuer>
+                <hausgeld>150.00</hausgeld>
+                <preis_zeiteinheit />
+                <provisionspflichtig>false</provisionspflichtig>
+                <waehrung iso_waehrung="EUR" />
+                <mwst_satz>19.00</mwst_satz>
+                <stp_carport />
+                <stp_duplex />
+                <stp_freiplatz />
+                <stp_garage />
+                <stp_parkhaus />
+                <stp_tiefgarage />
+            </preise>
+            <bieterverfahren />
+            <versteigerung />
+            <flaechen>
+                <wohnflaeche>55</wohnflaeche>
+                <gesamtflaeche>55</gesamtflaeche>
+                <anzahl_zimmer>2</anzahl_zimmer>
+                <teilbar_ab>55</teilbar_ab>
+            </flaechen>
+            <ausstattung>
+                <bad DUSCHE="true" />
+                <kueche OFFEN="true" />
+                <boden PARKETT="true" DIELEN="true" />
+                <heizungsart ETAGE="true" />
+                <befeuerung GAS="true" />
+                <fahrstuhl PERSONEN="true" />
+                <ausricht_balkon_terrasse />
+                <moebliert moeb="VOLL" />
+                <angeschl_gastronomie />
+                <sicherheitstechnik />
+            </ausstattung>
+            <zustand_angaben>
+                <baujahr>1905</baujahr>
+                <zustand zustand_art="TEIL_VOLLSANIERT" />
+                <alter alter_attr="ALTBAU" />
+            </zustand_angaben>
+            <bewertung />
+            <infrastruktur />
+            <freitexte>
+                <objekttitel>Ruhiglage! Sanierte Altbauwohnung mit Balkon</objekttitel>
+                <objektbeschreibung>Informationen zur Wohnung:
+					- sehr ruhig gelegen im Hinterhaus!
+					- Aufzug 
+					- Balkon
+					- Erstbezug nach Sanierung
+					- modernes Duschbad mit Granitböden
+					- möbliert
+					- Eichenparkettboden und abgezogene Holz-dielen
+					- MP3-Dockingstation im Bad
+					- Kellerabteil
+				</objektbeschreibung>
+                <sonstige_angaben>
+                	100% Beratung. 100% Service bei 0% Maklerprovision!
+				</sonstige_angaben>
+                <user_defined_simplefield feldname="Badezimmer" />
+                <user_defined_simplefield feldname="Küche" />
+                <user_defined_simplefield feldname="Sonstiges" />
+                <user_defined_simplefield feldname="Zimmer" />
+            </freitexte>
+            <anhaenge>
+                <anhang location="EXTERN" gruppe="TITELBILD">
+                    <anhangtitel>Wohnzimmer</anhangtitel>
+                    <format>jpg</format>
+                    <daten>
+                        <pfad>ea2b65cdb09940918bf7d0e8395727c7.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="EXTERN" gruppe="INNENANSICHTEN">
+                    <anhangtitel>Schlafzimmer</anhangtitel>
+                    <format>jpg</format>
+                    <daten>
+                        <pfad>cf95d65673bf4c1c9ecc4cfad992e0ba.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="EXTERN" gruppe="INNENANSICHTEN">
+                    <anhangtitel>Einbauküche/Essbereich</anhangtitel>
+                    <format>jpg</format>
+                    <daten>
+                        <pfad>2fa939ee747645d3af0db04d2cbac019.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="EXTERN" gruppe="INNENANSICHTEN">
+                    <anhangtitel>Diele</anhangtitel>
+                    <format>jpg</format>
+                    <daten>
+                        <pfad>6bf16348e3c64e3788b2541ec829b861.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="EXTERN" gruppe="INNENANSICHTEN">
+                    <anhangtitel>Balkon</anhangtitel>
+                    <format>jpg</format>
+                    <daten>
+                        <pfad>c9279c69b0a84124b15d357991c70e3d.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="EXTERN" gruppe="INNENANSICHTEN">
+                    <anhangtitel>Bad</anhangtitel>
+                    <format>jpg</format>
+                    <daten>
+                        <pfad>96f3f48ea6a44cc48052fd61ec3b0fb3.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="EXTERN" gruppe="LINKS">
+                    <anhangtitel>https://360-grad-immobilien.com/tour/1076093?accessKey=XXXX</anhangtitel>
+                </anhang>
+            </anhaenge>
+            <verwaltung_objekt>
+                <objektadresse_freigeben>false</objektadresse_freigeben>
+                <verfuegbar_ab>frei</verfuegbar_ab>
+                <geschlecht />
+            </verwaltung_objekt>
+            <verwaltung_techn>
+                <objektnr_intern>XXXX</objektnr_intern>
+                <objektnr_extern>IC1955</objektnr_extern>
+                <aktion aktionart="CHANGE" />
+                <openimmo_obid>XXXX</openimmo_obid>
+                <kennung_ursprung>estateOffice V6.0.0.4</kennung_ursprung>
+                <stand_vom>2016-09-20</stand_vom>
+            </verwaltung_techn>
+        </immobilie>
+    </anbieter>
+</openimmo>
